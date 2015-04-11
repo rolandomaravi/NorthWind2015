@@ -24,3 +24,4 @@ C:\dsw1\NorthWind.Win\obj\Debug\NorthWind.Win.frmCliente.resources
 C:\dsw1\NorthWind.Win\obj\Debug\NorthWind.Win.Properties.Resources.resources
 C:\dsw1\NorthWind.Win\obj\Debug\NorthWind.Win.csproj.GenerateResource.Cache
 C:\dsw1\NorthWind.Win\obj\Debug\NorthWind.Win.frmProducto.resources
+C:\dsw1\NorthWind.Win\obj\Debug\NorthWind.Win.frmDocumento.resources
