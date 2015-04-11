@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Win", "NorthWind.Win\NorthWind.Win.csproj", "{96D7CE92-7B0E-4CD1-AB45-10F7ACC3BFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Entity", "NorthWind.Entity\NorthWind.Entity.csproj", "{6ACC2E9B-583E-452B-9DE2-C368ADAEC86A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96D7CE92-7B0E-4CD1-AB45-10F7ACC3BFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D7CE92-7B0E-4CD1-AB45-10F7ACC3BFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D7CE92-7B0E-4CD1-AB45-10F7ACC3BFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D7CE92-7B0E-4CD1-AB45-10F7ACC3BFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACC2E9B-583E-452B-9DE2-C368ADAEC86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACC2E9B-583E-452B-9DE2-C368ADAEC86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACC2E9B-583E-452B-9DE2-C368ADAEC86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACC2E9B-583E-452B-9DE2-C368ADAEC86A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
