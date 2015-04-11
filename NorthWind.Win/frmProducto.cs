@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NorthWind.Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,20 @@ namespace NorthWind.Win
 {
     public partial class frmProducto : Form
     {
+        List<TbProductoBE> Lista = new List<TbProductoBE>();
+
         public frmProducto()
         {
             InitializeComponent();
+        }
+       
+
+        private void frmProducto_Load(object sender, EventArgs e)
+        {
+            Lista = TbProductoBE.SelectAll();
+            productobindingSource.DataSource = Lista;
+            dataGridView1.SelectionMode =
+                DataGridViewSelectionMode.FullRowSelect;
         }
     }
 }

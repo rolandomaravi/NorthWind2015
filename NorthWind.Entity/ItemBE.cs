@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+// cada elemento de un detalle de factura
+
 namespace NorthWind.Entity
 {
     public class ItemBE
