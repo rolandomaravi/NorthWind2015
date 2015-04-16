@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NorthWind.Entity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,5 +22,23 @@ namespace NorthWind.Win
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // boton muestra formulario clientes
+            frmCliente ofrmCliente = new frmCliente();
+            ofrmCliente.OnClienteSeleccionado += new EventHandler<Entity.TbClienteBE>(MetodoCliente);
+            ofrmCliente.Show();
+
+        }
+        TbClienteBE otmpCliente;
+        void MetodoCliente(object sender, TbClienteBE e)
+        {
+            txtcliente.Text = e.Nombre;
+            txtruc.Text = e.Apellido;
+            otmpCliente = e;
+        }
+
     }
+
 }
